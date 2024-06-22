@@ -40,13 +40,15 @@ console.log('should return 0', multiplyThree(1,4567,0));
 //    or greater than zero, and false otherwise
 function isPositive(number) {
   if (number > 0) {
-    return;
+    return true;
   }
-  return;
+  return false;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 
+console.log('return true', isPositive(234587));
+console.log('return false', isPositive(-1000000000));
 
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
