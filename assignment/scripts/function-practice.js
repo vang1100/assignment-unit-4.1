@@ -72,7 +72,7 @@ function find(value, array) {
  
 
 
-console.log(find('bird',['cat', 'cow', 'dog']));
+console.log(find('lizard',['cat', 'cow', 'dog']));
 
 // ----------------------
 // Stretch Goals
